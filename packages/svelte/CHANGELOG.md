@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.16.2](https://github.com/tolgee/tolgee-js/compare/v5.16.1...v5.16.2) (2023-11-13)
+
+
+### Bug Fixes
+
+* remove unused window check, as onMount only runs client side ([#3279](https://github.com/tolgee/tolgee-js/issues/3279)) ([568e5e4](https://github.com/tolgee/tolgee-js/commit/568e5e4b8d67ba680161ac2f930a6375c5186136))
+
+
+
+
+
+## [5.16.1](https://github.com/tolgee/tolgee-js/compare/v5.16.0...v5.16.1) (2023-11-13)
+
+
+### Bug Fixes
+
+* return TextEncoder polyfill as it's not JS standard ([#3278](https://github.com/tolgee/tolgee-js/issues/3278)) ([d2423e1](https://github.com/tolgee/tolgee-js/commit/d2423e11694335c56d5bb30f409c2579731a5788))
+
+
+
+
+
 # [5.16.0](https://github.com/tolgee/tolgee-js/compare/v5.15.0...v5.16.0) (2023-11-04)
 
 **Note:** Version bump only for package @tolgee/svelte

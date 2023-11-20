@@ -185,7 +185,7 @@ importers:
         specifier: ^5.16.5
         version: 5.16.5
       '@tolgee/core':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../core
       '@types/jest':
         specifier: ^27.0.2
@@ -230,7 +230,7 @@ importers:
   packages/i18next:
     dependencies:
       '@tolgee/web':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../web
     devDependencies:
       '@rollup/plugin-typescript':
@@ -243,7 +243,7 @@ importers:
         specifier: ^5.11.4
         version: 5.16.5
       '@tolgee/testing':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../testing
       '@types/jest':
         specifier: ^28.1.6
@@ -318,7 +318,7 @@ importers:
         specifier: ~13.1.3
         version: 13.1.3(@angular/common@13.1.3)(@angular/core@13.1.3)(@angular/platform-browser@13.1.3)(rxjs@7.5.7)
       '@tolgee/web':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../web
       rxjs:
         specifier: ~7.5.5
@@ -349,10 +349,10 @@ importers:
         specifier: 5.16.4
         version: 5.16.4
       '@tolgee/format-icu':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../format-icu
       '@tolgee/testing':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../testing
       '@types/jasmine':
         specifier: ~3.10.3
@@ -400,14 +400,14 @@ importers:
   packages/ngx/projects/ngx-tolgee:
     dependencies:
       '@tolgee/web':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../../web
     publishDirectory: ../../dist/ngx-tolgee
 
   packages/react:
     dependencies:
       '@tolgee/web':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../web
     devDependencies:
       '@rollup/plugin-node-resolve':
@@ -426,10 +426,10 @@ importers:
         specifier: ^14.0.0
         version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
       '@tolgee/format-icu':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../format-icu
       '@tolgee/testing':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../testing
       '@types/jest':
         specifier: ^27.0.2
@@ -492,7 +492,7 @@ importers:
   packages/svelte:
     dependencies:
       '@tolgee/web':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../web
     devDependencies:
       '@sveltejs/adapter-auto':
@@ -511,10 +511,10 @@ importers:
         specifier: ^3.2.2
         version: 3.2.2(svelte@3.55.1)
       '@tolgee/format-icu':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../format-icu
       '@tolgee/testing':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../testing
       '@tsconfig/svelte':
         specifier: ^3.0.0
@@ -589,7 +589,7 @@ importers:
   packages/vue:
     dependencies:
       '@tolgee/web':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../web
     devDependencies:
       '@rollup/plugin-node-resolve':
@@ -605,10 +605,10 @@ importers:
         specifier: ^6.6.1
         version: 6.6.1(@vue/compiler-sfc@3.3.4)(vue@3.2.47)
       '@tolgee/format-icu':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../format-icu
       '@tolgee/testing':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../testing
       '@types/jest':
         specifier: ^27.0.2
@@ -659,7 +659,7 @@ importers:
   packages/web:
     dependencies:
       '@tolgee/core':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../core
     devDependencies:
       '@babel/preset-typescript':
@@ -713,6 +713,9 @@ importers:
       concurrently:
         specifier: 7.4.0
         version: 7.4.0
+      fast-text-encoding:
+        specifier: ^1.0.6
+        version: 1.0.6
       jest:
         specifier: ^27.2.4
         version: 27.5.1(ts-node@10.9.1)
@@ -740,6 +743,9 @@ importers:
       rollup-plugin-bundle-size:
         specifier: ^1.0.3
         version: 1.0.3
+      rollup-plugin-polyfill:
+        specifier: ^4.2.0
+        version: 4.2.0(rollup@2.79.0)
       rollup-plugin-replace:
         specifier: 2.2.0
         version: 2.2.0
@@ -771,10 +777,10 @@ importers:
   testapps/next:
     dependencies:
       '@tolgee/format-icu':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/format-icu
       '@tolgee/react':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/react
       next:
         specifier: 13.4.7
@@ -802,13 +808,13 @@ importers:
   testapps/next-app:
     dependencies:
       '@tolgee/format-icu':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/format-icu
       '@tolgee/react':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/react
       '@tolgee/web':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/web
       clsx:
         specifier: ^1.2.1
@@ -866,10 +872,10 @@ importers:
   testapps/next-internal:
     dependencies:
       '@tolgee/react':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/react
       '@tolgee/web':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/web
       next:
         specifier: 13.4.7
@@ -927,10 +933,10 @@ importers:
         specifier: 13.0.2
         version: 13.0.2(@angular/common@13.1.3)(@angular/core@13.1.3)(@angular/platform-server@13.1.3)(express@4.18.1)
       '@tolgee/format-icu':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/format-icu
       '@tolgee/ngx':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/ngx/dist/ngx-tolgee
       '@types/react':
         specifier: ^17.0.43
@@ -994,10 +1000,10 @@ importers:
   testapps/react:
     dependencies:
       '@tolgee/format-icu':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/format-icu
       '@tolgee/react':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/react
       '@types/node':
         specifier: ^18.14.6
@@ -1036,16 +1042,16 @@ importers:
         specifier: ^12.1.10
         version: 12.8.3(@testing-library/dom@8.20.0)
       '@tolgee/core':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/core
       '@tolgee/i18next':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/i18next
       concurrently:
         specifier: ^7.3.0
         version: 7.4.0
       i18next:
-        specifier: ^23.5.1
+        specifier: 23.5.1
         version: 23.5.1
       i18next-icu:
         specifier: ^2.3.0
@@ -1057,7 +1063,7 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
       react-i18next:
-        specifier: ^13.2.2
+        specifier: 13.2.2
         version: 13.2.2(i18next@23.5.1)(react-dom@18.2.0)(react@18.2.0)
       react-scripts:
         specifier: 5.0.1
@@ -1085,10 +1091,10 @@ importers:
   testapps/svelte:
     dependencies:
       '@tolgee/format-icu':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/format-icu
       '@tolgee/svelte':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/svelte/package
     devDependencies:
       '@fontsource/fira-mono':
@@ -1146,10 +1152,10 @@ importers:
   testapps/vue:
     dependencies:
       '@tolgee/format-icu':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/format-icu
       '@tolgee/vue':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/vue
       vue:
         specifier: ^3.2.45
@@ -1183,7 +1189,7 @@ importers:
   testapps/vue-i18next:
     dependencies:
       '@tolgee/i18next':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/i18next
       core-js:
         specifier: ^3.25.3
@@ -1223,10 +1229,10 @@ importers:
   testapps/web:
     dependencies:
       '@tolgee/format-icu':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/format-icu
       '@tolgee/web':
-        specifier: 5.16.0
+        specifier: 5.16.2
         version: link:../../packages/web
     devDependencies:
       concurrently:
@@ -5614,7 +5620,7 @@ packages:
     resolution: {integrity: sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      regenerator-runtime: 0.13.9
+      regenerator-runtime: 0.13.11
     dev: true
 
   /@babel/runtime@7.19.0:
@@ -6398,7 +6404,7 @@ packages:
       '@babel/core': 7.23.2
       '@babel/helper-module-imports': 7.18.6
       '@babel/plugin-syntax-jsx': 7.18.6(@babel/core@7.23.2)
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       '@emotion/hash': 0.9.0
       '@emotion/memoize': 0.8.0
       '@emotion/serialize': 1.1.0
@@ -8670,7 +8676,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       '@emotion/is-prop-valid': 1.2.0
       '@mui/types': 7.2.0(@types/react@18.0.28)
       '@mui/utils': 5.10.6(react@18.2.0)
@@ -8750,7 +8756,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       '@mui/utils': 5.10.6(react@18.2.0)
       '@types/react': 18.0.28
       prop-types: 15.8.1
@@ -8770,7 +8776,7 @@ packages:
       '@emotion/styled':
         optional: true
     dependencies:
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       '@emotion/cache': 11.10.3
       '@emotion/react': 11.10.4(@babel/core@7.23.2)(@types/react@18.0.28)(react@18.2.0)
       '@emotion/styled': 11.10.4(@babel/core@7.23.2)(@emotion/react@11.10.4)(@types/react@18.0.28)(react@18.2.0)
@@ -8795,7 +8801,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       '@emotion/react': 11.10.4(@babel/core@7.23.2)(@types/react@18.0.28)(react@18.2.0)
       '@emotion/styled': 11.10.4(@babel/core@7.23.2)(@emotion/react@11.10.4)(@types/react@18.0.28)(react@18.2.0)
       '@mui/private-theming': 5.10.6(@types/react@18.0.28)(react@18.2.0)
@@ -8826,7 +8832,7 @@ packages:
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
     dependencies:
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       '@types/prop-types': 15.7.5
       '@types/react-is': 17.0.3
       prop-types: 15.8.1
@@ -10362,7 +10368,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       '@babel/code-frame': 7.18.6
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       '@types/aria-query': 4.2.2
       aria-query: 4.2.2
       chalk: 4.1.2
@@ -10403,7 +10409,7 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       '@babel/code-frame': 7.18.6
-      '@babel/runtime': 7.21.0
+      '@babel/runtime': 7.23.2
       '@types/aria-query': 5.0.1
       aria-query: 5.1.3
       chalk: 4.1.2
@@ -13229,7 +13235,7 @@ packages:
     resolution: {integrity: sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==}
     engines: {node: '>=6.0'}
     dependencies:
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       '@babel/runtime-corejs3': 7.19.1
     dev: false
 
@@ -13754,7 +13760,7 @@ packages:
     resolution: {integrity: sha512-Cg7TFGpIr01vOQNODXOOaGz2NpCU5gl8x1qJFbb6hbZxR7XrcE2vtbAsTAbJ7/xwJtUuJEw8K8Zr/AE0LHlesg==}
     engines: {node: '>=10', npm: '>=6'}
     dependencies:
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       cosmiconfig: 7.1.0
       resolve: 1.22.1
 
@@ -14261,7 +14267,7 @@ packages:
   /broadcast-channel@3.7.0:
     resolution: {integrity: sha512-cIAKJXAxGJceNZGTZSBzMxzyOn72cVgPnKx4dc6LRjQgbaJUQqhy5rzL3zbMxkMWsGKkv2hSFkPRMEXfoMZ2Mg==}
     dependencies:
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       detect-node: 2.1.0
       js-sha3: 0.8.0
       microseconds: 0.2.0
@@ -16966,7 +16972,7 @@ packages:
   /dom-helpers@5.2.1:
     resolution: {integrity: sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==}
     dependencies:
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       csstype: 3.1.1
     dev: true
 
@@ -19474,6 +19480,10 @@ packages:
 
   /fast-safe-stringify@2.1.1:
     resolution: {integrity: sha512-W+KJc2dmILlPplD/H4K9l9LcAHAfPtP6BY84uVLXQ6Evcz9Lcg33Y2z1IVblT6xdY54PXYVHEv+0Wpq8Io6zkA==}
+    dev: true
+
+  /fast-text-encoding@1.0.6:
+    resolution: {integrity: sha512-VhXlQgj9ioXCqGstD37E/HBeqEGV/qOD/kmbVG8h5xKBYvM1L3lR1Zn4555cQ8GkYbJa8aJSipLPndE1k6zK2w==}
     dev: true
 
   /fast-url-parser@1.1.3:
@@ -24718,7 +24728,7 @@ packages:
   /match-sorter@6.3.1:
     resolution: {integrity: sha512-mxybbo3pPNuA+ZuCUhm5bwNkXrJTbsk5VWbR5wiwz/GC6LIiegBGn2w3O08UG/jdbYLinw51fSQ5xNU1U3MgBw==}
     dependencies:
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       remove-accents: 0.4.2
     dev: true
 
@@ -29129,7 +29139,7 @@ packages:
       react: '>=16.6.0'
       react-dom: '>=16.6.0'
     dependencies:
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       dom-helpers: 5.2.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
@@ -29355,7 +29365,7 @@ packages:
   /regenerator-transform@0.15.0:
     resolution: {integrity: sha512-LsrGtPmbYg19bcPHwdtmXwbW+TqNvtY4riE3P83foeHRroMbH6/2ddFBfab3t7kbzc7v7p4wbkIecHImqt0QNg==}
     dependencies:
-      '@babel/runtime': 7.16.7
+      '@babel/runtime': 7.23.2
     dev: true
 
   /regenerator-transform@0.15.1:
@@ -29698,6 +29708,15 @@ packages:
       maxmin: 2.1.0
     dev: true
 
+  /rollup-plugin-polyfill@4.2.0(rollup@2.79.0):
+    resolution: {integrity: sha512-6eeOyn7nr2/xUOtB+MhydvqLrNKcSybGneOuWA+t8Q4rR9NQyeapzwuu5n6nX8OFfY1WI1sHconAofaC44IpuA==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      rollup: ^2.67.0 || ^3.0.0 || ^4.0.0
+    dependencies:
+      rollup: 2.79.0
+    dev: true
+
   /rollup-plugin-replace@2.2.0:
     resolution: {integrity: sha512-/5bxtUPkDHyBJAKketb4NfaeZjL5yLZdeUihSfbF2PQMz+rSTEb8ARKoOl3UBT4m7/X+QOXJo3sLTcq+yMMYTA==}
     deprecated: This module has moved and is now available at @rollup/plugin-replace. Please update your dependencies. This version is no longer maintained.
@@ -29815,7 +29834,7 @@ packages:
     peerDependencies:
       rollup: ^2.0.0
     dependencies:
-      '@babel/code-frame': 7.18.6
+      '@babel/code-frame': 7.22.5
       jest-worker: 26.6.2
       rollup: 2.79.1
       serialize-javascript: 4.0.0
@@ -33016,7 +33035,7 @@ packages:
   /unload@2.2.0:
     resolution: {integrity: sha512-B60uB5TNBLtN6/LsgAf3udH9saB5p7gqJwcFfbOEZ8BcBHnGwCf6G/TGiEqkRAxX7zAFIUtzdrXQSdL3Q/wqNA==}
     dependencies:
-      '@babel/runtime': 7.19.0
+      '@babel/runtime': 7.23.2
       detect-node: 2.1.0
     dev: true
 
