@@ -5,7 +5,7 @@
 
   const { t } = getTranslate();
 
-  let revealed = false;
+  let revealed = $state(false);
 </script>
 
 <main class="translation-methods">

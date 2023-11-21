@@ -2,18 +2,29 @@
     import type { NsType, TranslationKey } from '@tolgee/web';
   import getTranslateInternal from './getTranslateInternal';
 
-  export let keyName: TranslationKey;
-  export let params: Record<string, unknown> | undefined = undefined;
-  export let noWrap = false;
-  export let defaultValue = undefined;
-  export let ns: NsType = undefined;
-  export let language: string = undefined;
+  type Props = {
+    keyName: string;
+    params?: Record<string, unknown>;
+    noWrap?: boolean;
+    defaultValue?: string;
+    ns?: NsType;
+    language?: string;
+  };
+
+  let {
+    keyName,
+    params,
+    noWrap,
+    defaultValue,
+    ns,
+    language,
+  } = $props<Props>();
 
   if (!keyName) {
     console.error('Missing keyName prop!');
   }
 
-  const { t } = getTranslateInternal()
+  const { t } = getTranslateInternal();
 </script>
 
 {$t({

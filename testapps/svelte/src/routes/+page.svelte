@@ -22,8 +22,8 @@
       : ['Passport', 'Maps and directions', 'Travel guide'];
   };
 
-  let items = getInitialItems();
-  let newItemValue: string;
+  let items = $state(getInitialItems());
+  let newItemValue: string = $state('');
 
   const onAdd = () => {
     if (newItemValue) {

@@ -1,31 +1,29 @@
 <script lang="ts">
-  import { onDestroy, onMount, setContext } from 'svelte';
-  import type { TolgeeInstance } from '@tolgee/web';
-  import type { TolgeeSvelteContext } from './types';
+  import {setContext} from 'svelte';
+  import type {TolgeeInstance} from '@tolgee/web';
+  import type {TolgeeSvelteContext} from './types';
 
-  export let tolgee: TolgeeInstance;
-  export let fallback = undefined;
+  type Props = {
+    tolgee: TolgeeInstance;
+  };
 
-  let isLoading: boolean = !tolgee.isLoaded();
+  let {tolgee} = $props<Props>();
+
+  let isLoading = $state(!tolgee.isLoaded());
 
   setContext('tolgeeContext', {
     tolgee,
   } as TolgeeSvelteContext);
 
-  onMount(() => {
+  $effect(() => {
     tolgee.run().finally(() => {
       isLoading = false
     })
+
+    return () => {
+      tolgee.stop();
+    };
   });
-  onDestroy(tolgee.stop);
 </script>
 
-{#if !isLoading }
-  <slot />
-{:else }
-  {#if fallback}
-    {fallback}
-  {:else}
-    <slot name="fallback" />
-  {/if}
-{/if}
+<slot/>
